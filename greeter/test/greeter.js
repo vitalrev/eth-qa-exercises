@@ -19,5 +19,6 @@ contract('Greeter', function(accounts) {
         console.log("instance addresse: " + instance);
         var result = await instance.greet();
         assert.equal("Hello", result);
+       // assert.equal("World", result);
     });
   });

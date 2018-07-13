@@ -24,6 +24,7 @@ describe('Greeter', () => {
             var result = await instance.methods.greet().call();
             console.log("RESULT of greet(): " + result);
             assert.equal("Hello", result);
+           // assert.equal("World", result);
         });
     });
 });
