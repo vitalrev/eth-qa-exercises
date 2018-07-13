@@ -29,16 +29,16 @@ contract('fixedsupplytoken', function(accounts) {
         let bob_starting_balance = (await token.balanceOf(bob_account)).toNumber() / (10**decimals);
         console.log("bob start balance: " + bob_starting_balance);
 
-        await token.transfer(bob_account, amount * (10**decimals));
-        let owner_ending_balance = (await token.balanceOf(owner_account)).toNumber() / (10**decimals);
+         await token.transfer(bob_account, amount * (10**decimals));
+        let owner_ending_balance = (await token.balanceOf(owner_account)).toNumber() / (10**decimals);
         console.log("owner end balance: " + owner_ending_balance);
         console.log("owner difference balance: " + (owner_starting_balance - owner_ending_balance));
-        let bob_ending_balance = (await token.balanceOf(bob_account)).toNumber() / (10**decimals);
+        let bob_ending_balance = (await token.balanceOf(bob_account)).toNumber() / (10**decimals);
         console.log("bob end balance: " + bob_ending_balance);
 
-        // QUESTION-1: why do i have still the same owner balance???
-        assert.equal(owner_ending_balance, owner_starting_balance - amount, 'owner has incorrect balance');
-        assert.equal(bob_ending_balance, bob_starting_balance + amount, 'Bob has incorrect balance');
+        // QUESTION-1: why do i have still the same owner balance???
+        assert.equal(owner_ending_balance, owner_starting_balance - amount, 'owner has incorrect balance');
+        assert.equal(bob_ending_balance, bob_starting_balance + amount, 'Bob has incorrect balance');
     });
 
     it("transfer from bob to alice", async() => {
