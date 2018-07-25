@@ -1,0 +1,145 @@
+[
+  {
+    "description": "    As a token issuer\n    In order to distribute my token\n    I want to be able to send amounts to different addresses",
+    "elements": [
+      {
+        "id": "send-tokens-with-metacoin;i-can-see-headline",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "I can see headline",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I navigate to the Metacoin homepage",
+            "result": {
+              "status": "passed",
+              "duration": 1493971510
+            },
+            "line": 10,
+            "match": {
+              "location": "/Users/vitalijreicherdt/BlockChain/Trainings/eth-qa-4-training/metacoin/features/step_definitions/metacoin-steps.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see the expected headline",
+            "result": {
+              "status": "passed",
+              "duration": 17150462
+            },
+            "line": 11,
+            "match": {
+              "location": "/Users/vitalijreicherdt/BlockChain/Trainings/eth-qa-4-training/metacoin/features/step_definitions/metacoin-steps.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 130776516
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/vitalijreicherdt/BlockChain/Trainings/eth-qa-4-training/metacoin/node_modules/selenium-cucumber-js/runtime/world.js:221"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@metacoin",
+            "line": 1
+          },
+          {
+            "name": "@metacoin",
+            "line": 8
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "send-tokens-with-metacoin;i-can-send-token",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "I can send token",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I navigate to the Metacoin homepage",
+            "result": {
+              "status": "passed",
+              "duration": 1399633263
+            },
+            "line": 15,
+            "match": {
+              "location": "/Users/vitalijreicherdt/BlockChain/Trainings/eth-qa-4-training/metacoin/features/step_definitions/metacoin-steps.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I input valid values",
+            "result": {
+              "status": "passed",
+              "duration": 1328390
+            },
+            "line": 16,
+            "match": {
+              "location": "/Users/vitalijreicherdt/BlockChain/Trainings/eth-qa-4-training/metacoin/features/step_definitions/metacoin-steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see a success notification",
+            "result": {
+              "status": "passed",
+              "duration": 1332508774
+            },
+            "line": 17,
+            "match": {
+              "location": "/Users/vitalijreicherdt/BlockChain/Trainings/eth-qa-4-training/metacoin/features/step_definitions/metacoin-steps.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 127334641
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/vitalijreicherdt/BlockChain/Trainings/eth-qa-4-training/metacoin/node_modules/selenium-cucumber-js/runtime/world.js:221"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@metacoin",
+            "line": 1
+          },
+          {
+            "name": "@metacoin",
+            "line": 13
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "send-tokens-with-metacoin",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "Send tokens with Metacoin",
+    "tags": [
+      {
+        "name": "@metacoin",
+        "line": 1
+      }
+    ],
+    "uri": "/Users/vitalijreicherdt/BlockChain/Trainings/eth-qa-4-training/metacoin/features/metacoin.feature"
+  }
+]

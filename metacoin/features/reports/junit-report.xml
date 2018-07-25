@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="send-tokens-with-metacoin;i-can-see-headline" tests="2" failures="0" skipped="0">
+        <properties>
+            <property name="@metacoin" value="true">
+            </property>
+            <property name="@metacoin" value="true">
+            </property>
+            <property name="URI" value="/Users/vitalijreicherdt/BlockChain/Trainings/eth-qa-4-training/metacoin/features/metacoin.feature">
+            </property>
+        </properties>
+        <testcase name="Given I navigate to the Metacoin homepage" classname="send-tokens-with-metacoin;i-can-see-headline" time="1.49397151">
+        </testcase>
+        <testcase name="Then I should see the expected headline" classname="send-tokens-with-metacoin;i-can-see-headline" time="0.017150462">
+        </testcase>
+    </testsuite>
+    <testsuite name="send-tokens-with-metacoin;i-can-send-token" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="@metacoin" value="true">
+            </property>
+            <property name="@metacoin" value="true">
+            </property>
+            <property name="URI" value="/Users/vitalijreicherdt/BlockChain/Trainings/eth-qa-4-training/metacoin/features/metacoin.feature">
+            </property>
+        </properties>
+        <testcase name="Given I navigate to the Metacoin homepage" classname="send-tokens-with-metacoin;i-can-send-token" time="1.399633263">
+        </testcase>
+        <testcase name="When I input valid values" classname="send-tokens-with-metacoin;i-can-send-token" time="0.00132839">
+        </testcase>
+        <testcase name="Then I should see a success notification" classname="send-tokens-with-metacoin;i-can-send-token" time="1.332508774">
+        </testcase>
+    </testsuite>
+</testsuites>
